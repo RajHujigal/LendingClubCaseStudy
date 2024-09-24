@@ -18,19 +18,17 @@ Loan Default Prediction Using EDA
 
 ## General Information
 
-General Information: This project aims to perform an Exploratory Data Analysis (EDA) to understand the factors influencing loan defaulting behavior in urban customers. By analyzing customer and loan attributes, this project helps predict whether an applicant is likely to default, enabling financial institutions to reduce credit loss and optimize risk management strategies.
+General Information: This project aims to perform an Exploratory Data Analysis (EDA) to understand the factors influencing loan defaulting behavior in customers. By analyzing customer and loan attributes, this project helps predict whether an applicant is likely to default, enabling financial institutions to reduce credit loss and optimize risk management strategies.
 
-Background of the Project: The project focuses on consumer finance, particularly loans granted to urban customers. The finance company needs to approve or deny loans based on the risk of default by the applicant. The goal is to build a data-driven understanding of which applicant or loan attributes most strongly correlate with default risk. By identifying these patterns, the company can improve its lending process and minimize financial losses.
+Background of the Project: The project focuses on consumer finance, particularly loans granted to  customers. The finance company needs to approve or deny loans based on the risk of default by the applicant. The goal is to build a data-driven understanding of which applicant or loan attributes most strongly correlate with default risk. By identifying these patterns, the company can improve its lending process and minimize financial losses.
 
 Business Problem: The project aims to address the risk of credit loss for financial institutions by identifying risky loan applicants who are more likely to default. Lending to such high-risk individuals often leads to financial loss, and the company wants to minimize these risks by using data-driven insights to either deny loans or charge higher interest rates for risky applicants. By understanding the driving factors behind defaults, the company can optimize its loan approval process and portfolio management.
 
-Dataset: The dataset used for this project includes loan data for customers from 2007 to 2011. It contains detailed information on the loan applicants, the loan status (fully paid, current, charged-off), and various consumer demographics and financial variables. This data helps in performing both univariate and bivariate analysis to uncover key insights into customer behavior.
+Dataset: The dataset used for this project includes loan data for customers. It contains detailed information on the loan applicants, the loan status (fully paid, current, charged-off), and various consumer demographics and financial variables. This data helps in performing both univariate, bivariate, multivariate analysis to uncover key insights into customer behavior.
 
 
 
 ## Conclusions
-
-
 
 This analysis provides actionable insights that can help the company reduce financial losses by identifying risky loan applicants and adjusting their lending criteria.
 - Higher loan amounts and interest rates are associated with a greater likelihood of default.
@@ -46,10 +44,10 @@ Seaborn - version 0.13.2
 Scikit-learn - version 1.4.2
 Jupyter Notebook - version 7.0.8
 
-
-
 ## Contact
-@RajHujigal 
-@Rakesh Bhadra!
+@RajHujigal
+@rakbha9
+- feel free to contact us!
+
 
 https://github.com/RajHujigal/LendingClubCaseStudy
