@@ -30,6 +30,8 @@ This analysis provides actionable insights that can help the company reduce fina
 1.Borrowers with higher DTI ratios (above 15%) are at greater risk of default, especially if their income is not verified or if they have shorter employment histories.
 2.Borrowers in the Current or Charged Off categories consistently had higher DTI ratios than those who successfully repaid their loans.
 3.Borrowers with 3-7 years of employment face a higher risk of default, particularly when their loan amounts and DTI ratios are higher. While they are offered relatively high loan amounts, they still tend to default at higher rates compared to longer-term employees (10+ years).
+
+
 Recommndations:
 1.Borrowers with high DTI ratios (above 15%) should either receive smaller loan amounts or be charged higher interest rates to compensate for the increased risk. 
 2.Lenders should be cautious when lending to borrowers with shorter employment histories (less than 3 years) who have high DTI ratios. Offering smaller loan amounts or additional verification could reduce the risk of default.
