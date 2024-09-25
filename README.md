@@ -18,31 +18,30 @@ Loan Default Prediction Using EDA
 
 ## General Information
 
-General Information: This project aims to perform an Exploratory Data Analysis (EDA) to understand the factors influencing loan defaulting behavior in customers. By analyzing customer and loan attributes, this project helps predict whether an applicant is likely to default, enabling financial institutions to reduce credit loss and optimize risk management strategies.
-
 Background of the Project: The project focuses on consumer finance, particularly loans granted to  customers. The finance company needs to approve or deny loans based on the risk of default by the applicant. The goal is to build a data-driven understanding of which applicant or loan attributes most strongly correlate with default risk. By identifying these patterns, the company can improve its lending process and minimize financial losses.
 
 Business Problem: The project aims to address the risk of credit loss for financial institutions by identifying risky loan applicants who are more likely to default. Lending to such high-risk individuals often leads to financial loss, and the company wants to minimize these risks by using data-driven insights to either deny loans or charge higher interest rates for risky applicants. By understanding the driving factors behind defaults, the company can optimize its loan approval process and portfolio management.
 
 Dataset: The dataset used for this project includes loan data for customers. It contains detailed information on the loan applicants, the loan status (fully paid, current, charged-off), and various consumer demographics and financial variables. This data helps in performing both univariate, bivariate, multivariate analysis to uncover key insights into customer behavior.
 
-
-
 ## Conclusions
-
+Analysis Outcome:
 This analysis provides actionable insights that can help the company reduce financial losses by identifying risky loan applicants and adjusting their lending criteria.
-- Higher loan amounts and interest rates are associated with a greater likelihood of default.
-- Customers with longer employment histories tend to default less frequently.
+1.Borrowers with higher DTI ratios (above 15%) are at greater risk of default, especially if their income is not verified or if they have shorter employment histories.
+2.Borrowers in the Current or Charged Off categories consistently had higher DTI ratios than those who successfully repaid their loans.
+3.Borrowers with 3-7 years of employment face a higher risk of default, particularly when their loan amounts and DTI ratios are higher. While they are offered relatively high loan amounts, they still tend to default at higher rates compared to longer-term employees (10+ years).
+Recommndations:
+1.Borrowers with high DTI ratios (above 15%) should either receive smaller loan amounts or be charged higher interest rates to compensate for the increased risk. 
+2.Lenders should be cautious when lending to borrowers with shorter employment histories (less than 3 years) who have high DTI ratios. Offering smaller loan amounts or additional verification could reduce the risk of default.
+3. Verifying income, especially for borrowers with high loan amounts and high DTI ratios, is crucial to reducing default risk. 
 
 ## Technologies Used
-
-Python - version 3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]
-NumPy - version 1.26.4
-Pandas - version 2.2.2
-Matplotlib - version 3.8.4
-Seaborn - version 0.13.2
-Scikit-learn - version 1.4.2
-Jupyter Notebook - version 7.0.8
+Jupyter version: 7.0.8
+python version: 3.12.3
+pandas version: 2.2.2
+numpy version: 1.26.4
+matplotlib version: 3.8.4
+seaborn version: 0.13.2
 
 ## Contact
 @RajHujigal
